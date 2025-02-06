@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #181819;
     color: #333;
 }
 
@@ -89,6 +89,7 @@ img{
     justify-content: space-between;
     align-items: center;
     gap:10px;
+    color:#ccc
 }
 
 .skills-list{

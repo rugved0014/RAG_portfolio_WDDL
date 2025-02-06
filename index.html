@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="/gemini-fill.svg" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -23,7 +28,7 @@
     
     <section id="about">
         <div class="container">
-            <h2>About Me</h2>
+            <h2 style="color:#ccc">About Me</h2>
             <div class="fl">
             <img id="profile-image" src="Rugved A. Ganapule photo.jpeg" alt="Your Image" class="profile-pic">
             <p>I am a second-year undergraduate student in Computer Science and Engineering with a strong passion for problem-solving and technology. My interests lie in Data Structures and Algorithms (DSA), Linux, Web Development, AI, and DevOps (Docker, Kubernetes).
@@ -35,7 +40,7 @@
         </div>
     </section>
     
-    <section id="skills">
+    <section style="color:#ccc" id="skills">
         <div class="container">
             <h2>Skills</h2>
             <div class="skills-list">
@@ -85,28 +90,34 @@
     
     <section id="projects">
         <div class="container">
-            <h2>Projects</h2>
+            <h2 style="color:#ccc">Projects</h2>
             <div class="project-grid">
-                <div class="project">
+              <a href="https://github.com/rugved0014/SCC_fin_proj" style="text-decoration:none" target="_blank">  <div class="project">
                     <h3>Obyss Agent Clone</h3>
                     <p>This project is a functional clone of the Obyss Agent, a robust automation tool for managing distributed systems efficiently. The project involves process automation, system monitoring, and efficient task execution across multiple nodes, ensuring high reliability and scalability.</p>
                 </div>
-                <div class="project">
+            </a>
+                <a href="https://github.com/rugved0014/OOPS_proj_java" style="text-decoration:none" target="_blank">
+                    <div class="project">
                     <h3>Three-tier-Notes-App</h3>
                     <p>A full-stack web application built using Django, MySQL, and Nginx with Docker containerization. This project follows a three-tier architecture, separating the presentation, application logic, and data storage layers. It enables secure, scalable, and efficient note management with a responsive UI and robust backend processing.</p>
                 </div>
+            </a>    
             </div>
         </div>
     </section>
     
     <section id="contact">
         <div class="container">
-            <h2>Contact</h2>
+            <h2 style="color:#ccc">Contact</h2>
             <form id="contact-form">
                 <input type="text" id="name" placeholder="Your Name" required>
                 <input type="email" id="email" placeholder="Your Email" required>
                 <textarea id="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send</button>
+                <a href="mailto:rugvedganapule@gmail.com?subject=Contact%20from%20Portfolio&body=Hello%2C%20I%20would%20like%20to%20connect." target="_blank">
+                    <button>Send Email</button>
+                </a>
+                
             </form>
         </div>
     </section>
